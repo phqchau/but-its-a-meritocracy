@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 // Variable to store the enemy prefab
-public var enemy : GameObject;
+public var enemies : GameObject[];
 
 // Variable to know how fast we should create new enemies
 public var spawnTime : float = 2;
@@ -27,6 +27,9 @@ function addEnemy() {
     // Randomly pick a point within the spawn object
     var spawnPoint = Vector2(Random.Range(x1, x2), transform.position.y);
 
+    // Randomly select an enemy
+    var i = Mathf.Floor(Random.Range(0, enemies.length));
+
     // Create an enemy at the 'spawnPoint' position
-    Instantiate(enemy, spawnPoint, Quaternion.identity);
+    Instantiate(enemies[i], spawnPoint, Quaternion.identity);
 } 
