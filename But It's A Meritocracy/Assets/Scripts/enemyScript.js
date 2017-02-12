@@ -20,3 +20,22 @@ function OnBecameInvisible() {
     // Destroy the enemy
     Destroy(gameObject);
 }
+
+// Function called when the enemy collides with another object
+function OnTriggerEnter2D(obj) {
+    // Name of the object that collided with the enemy
+    var name = obj.gameObject.name;
+
+    // If the enemy collided with a bullet
+    if (name == "bullet(Clone)") {
+        // Destroy itself (the enemy) and the bullet
+        Destroy(gameObject);
+        Destroy(obj.gameObject);
+    }
+
+    // If the enemy collided with the spaceship
+    if (name == "cursor") {
+        // Destroy itself (the enemy) to keep things simple
+        Destroy(gameObject);
+    }
+} 

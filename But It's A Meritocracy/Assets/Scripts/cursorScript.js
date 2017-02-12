@@ -13,6 +13,12 @@ function Update() {
     else
         r2d.velocity.x = 0;
 
+    // Keeps the cursor from moving offscreen
+    if (transform.position.x <= -8.1f) 
+        transform.position = new Vector2(-8.1f, transform.position.y);
+    else if (transform.position.x >= 8.1f) 
+        transform.position = new Vector2(8.1f, transform.position.y);
+
     // When the spacebar is pressed
     if (Input.GetKeyDown("space")) {
         // Create a new bullet at “transform.position” 
