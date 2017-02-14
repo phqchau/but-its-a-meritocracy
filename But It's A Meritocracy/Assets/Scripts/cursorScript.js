@@ -1,4 +1,5 @@
 ﻿#pragma strict
+
 public var bullet : GameObject;
 
 function Update() {

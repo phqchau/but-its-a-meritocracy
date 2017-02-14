@@ -1,9 +1,6 @@
 ﻿#pragma strict
 
-// Variable to store the enemy prefab
 public var enemies : GameObject[];
-
-// Variable to know how fast we should create new enemies
 public var spawnTime : float = 2;
 
 function Start() {
@@ -33,3 +30,8 @@ function addEnemy() {
     // Create an enemy at the 'spawnPoint' position
     Instantiate(enemies[i], spawnPoint, Quaternion.identity);
 } 
+
+function spawnFaster(newTime : float) {
+    spawnTime = newTime;
+    Start();
+}
