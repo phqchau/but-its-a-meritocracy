@@ -1,5 +1,5 @@
 ﻿#pragma strict
-@RequireComponent(AudioSource)
+//@RequireComponent(AudioSource)
 
 // Public variable 
 public var speed : int = 6;
