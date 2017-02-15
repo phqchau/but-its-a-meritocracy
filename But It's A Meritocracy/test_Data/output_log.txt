@@ -17,27 +17,27 @@ Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A 
 Loading C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.372 seconds
+- Completed reload, in  0.268 seconds
 Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.234063 ms
+UnloadTime: 1.654164 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 18.711563 ms
+UnloadTime: 7.326564 ms
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 313.
-Total: 0.620525 ms (FindLiveObjects: 0.059016 ms CreateObjectMapping: 0.055594 ms MarkObjects: 0.458872 ms  DeleteObjects: 0.024376 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 361.
+Total: 0.261296 ms (FindLiveObjects: 0.023093 ms CreateObjectMapping: 0.023093 ms MarkObjects: 0.197576 ms  DeleteObjects: 0.010263 ms)
 
 Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\Boo.Lang.dll (this message is harmless)
 Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityScript.Lang.dll (this message is harmless)
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.984886 ms
+UnloadTime: 0.463576 ms
 
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 292.
-Total: 0.711188 ms (FindLiveObjects: 0.056877 ms CreateObjectMapping: 0.059016 ms MarkObjects: 0.523020 ms  DeleteObjects: 0.070562 ms)
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.310904 ms (FindLiveObjects: 0.034212 ms CreateObjectMapping: 0.029080 ms MarkObjects: 0.210405 ms  DeleteObjects: 0.036778 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1fa8 -> priority: 1 
+  Thread -> id: 2e30 -> priority: 1 
