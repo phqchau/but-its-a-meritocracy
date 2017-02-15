@@ -1,14 +1,10 @@
 ﻿#pragma strict
-//@RequireComponent(AudioSource)
 
 // Public variable 
 public var speed : int = 6;
 
 // Function called once when the bullet is created
 function Start () {
-	var audio: AudioSource = GetComponent.<AudioSource>();
-	audio.Play();
-	audio.Play(44100);
 	
     // Get the rigidbody component
     var r2d = GetComponent.<Rigidbody2D>();
