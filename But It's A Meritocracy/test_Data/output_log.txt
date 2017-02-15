@@ -1,0 +1,43 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   10.18.15.4248
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.372 seconds
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.234063 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.711563 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 313.
+Total: 0.620525 ms (FindLiveObjects: 0.059016 ms CreateObjectMapping: 0.055594 ms MarkObjects: 0.458872 ms  DeleteObjects: 0.024376 ms)
+
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Flannery\Documents\but-its-a-meritocracy\But It's A Meritocracy\test_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.984886 ms
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.711188 ms (FindLiveObjects: 0.056877 ms CreateObjectMapping: 0.059016 ms MarkObjects: 0.523020 ms  DeleteObjects: 0.070562 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1fa8 -> priority: 1 
