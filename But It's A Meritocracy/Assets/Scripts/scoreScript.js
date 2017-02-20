@@ -21,7 +21,13 @@ function Update () {
 
 // Increments the score by 1, called when an enemy is shot
 function increment() {
-    score++;
+    score = score + 1;
+    Update();
+}
+
+// Decrement the score by 1, called when an enemy escapes
+function decrement() {
+    score = score - 1;
     Update();
 }
 

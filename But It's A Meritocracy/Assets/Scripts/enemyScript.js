@@ -7,7 +7,7 @@ public var score : scoreScript;
 public var spawn : spawnScript;
 
 // Function called when the enemy is created
-public function Start () {
+public function Start() {
     // Get the rigidbody component
     var r2d = GetComponent.<Rigidbody2D>();
 
@@ -41,7 +41,7 @@ public function OnTriggerEnter2D(coll : Collider2D) {
         score.increment();
 
         // Update spawn time
-        if (score.getScore() % 10 == 0) {
+        if (score.getScore() % 20 == 0) {
             spawn.spawnFaster(spawn.spawnTime * .9);
         }
 
@@ -54,5 +54,11 @@ public function OnTriggerEnter2D(coll : Collider2D) {
     if (name == "cursor") {
         // End the game
         SceneManager.LoadScene("EndScene", LoadSceneMode.Single);
+    }
+
+    // If the enemy reaches the end of the screen
+    if (name == "barrier") {
+        // Decrement score
+        score.decrement();
     }
 } 
