@@ -22,14 +22,14 @@ function Update() {
         r2d.velocity.y = 0;
 
     // Keeps the player from moving offscreen
-    if (transform.position.x <= -9.8f) 
-        transform.position = new Vector2(-9.8f, transform.position.y);
-    else if (transform.position.x >= 9.8f) 
-        transform.position = new Vector2(9.8f, transform.position.y);
-    if (transform.position.y <= -4.1f) 
-        transform.position = new Vector2(transform.position.x, -4.1f);
-    else if (transform.position.y >= 4.1f) 
-        transform.position = new Vector2(transform.position.y, 4.1f);
+    if (transform.position.x <= -8.0f) 
+        transform.position = new Vector2(-8.0f, transform.position.y);
+    else if (transform.position.x >= 8.0f) 
+        transform.position = new Vector2(8.0f, transform.position.y);
+    if (transform.position.y <= -4.0f) 
+        transform.position = new Vector2(transform.position.x, -4.0f);
+    else if (transform.position.y >= 4.0f) 
+        transform.position = new Vector2(transform.position.x, 4.0f);
 
     // When the spacebar is pressed
     if (Input.GetKeyDown("space")) {
