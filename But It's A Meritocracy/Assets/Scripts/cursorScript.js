@@ -7,7 +7,7 @@ function Update() {
     // Get the rigidbody component
     var r2d = GetComponent.<Rigidbody2D>();
 
-    // Move the spaceship when an arrow key is pressed
+    // Move the player when an arrow key is pressed
     if (Input.GetKey("right") || Input.GetKey(KeyCode.D))
         r2d.velocity.x = 10;
     else if (Input.GetKey("left") || Input.GetKey(KeyCode.A))
@@ -21,7 +21,7 @@ function Update() {
     else
         r2d.velocity.y = 0;
 
-    // Keeps the cursor from moving offscreen
+    // Keeps the player from moving offscreen
     if (transform.position.x <= -9.8f) 
         transform.position = new Vector2(-9.8f, transform.position.y);
     else if (transform.position.x >= 9.8f) 
@@ -34,8 +34,7 @@ function Update() {
     // When the spacebar is pressed
     if (Input.GetKeyDown("space")) {
         // Create a new bullet at “transform.position” 
-        // Which is the current position of the ship
-        // Quaternion.identity = add the bullet with no rotation
+        // Which is the current position of the player
         GetComponent.<AudioSource>().Play();
         Instantiate(bullet, transform.position, Quaternion.identity);
     }

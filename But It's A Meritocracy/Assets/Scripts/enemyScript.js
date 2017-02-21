@@ -6,8 +6,6 @@ public var speed : int = -3;
 public var score : scoreScript;
 public var spawn : spawnScript;
 public var m_DestroyClip : AudioClip;
-public var m_MissedClip : AudioClip;
-public var m_LoseClip : AudioClip;
 private var m_Audio : AudioSource;
 
 public function Awake() {
@@ -64,17 +62,12 @@ public function OnTriggerEnter2D(coll : Collider2D) {
 
     // If the enemy collided with the player
     if (name == "cursor") {
-    	m_Audio.clip = m_LoseClip;
-        m_Audio.Play();
-
         // End the game
         SceneManager.LoadScene("EndScene", LoadSceneMode.Single);
     }
 
     // If the enemy reaches the end of the screen
     if (name == "barrier") {
-    	m_Audio.clip = m_MissedClip;
-        m_Audio.Play();
         // Decrement score
         score.decrement();
     }

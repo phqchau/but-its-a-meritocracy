@@ -1,6 +1,5 @@
 ﻿#pragma strict
 
-// Public variable 
 public var speed : int = 6;
 
 // Function called once when the bullet is created
