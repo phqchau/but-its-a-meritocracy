@@ -12,3 +12,5 @@ For Mac:
 - Click the Download button on the top right
 - Unzip the file
 - Run the file in the folder to run the game
+
+@Dave: All the code is in the /But It's A Meritocracy/Assets/Scripts/ folder.
