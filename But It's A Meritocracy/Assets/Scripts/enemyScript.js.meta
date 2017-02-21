@@ -1,11 +1,15 @@
 fileFormatVersion: 2
 guid: d46052924c11941c59abd577d15e7066
-timeCreated: 1486958151
+timeCreated: 1487660607
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - scoreObj: {fileID: 1798259968761998, guid: c5c2c73e7e99147488db5294b6c57997, type: 2}
+  - score: {instanceID: 0}
+  - spawn: {instanceID: 0}
+  - m_DestroyClip: {fileID: 8300000, guid: fd01d3e429819774181394d1ad09e6f2, type: 3}
+  - m_MissedClip: {fileID: 8300000, guid: ab3d0eee05f16c74db5adf795fb073d5, type: 3}
+  - m_LoseClip: {fileID: 8300000, guid: 0856a409a6ad74199a7561536101fda3, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

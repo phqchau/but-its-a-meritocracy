@@ -1,6 +1,7 @@
 ﻿#pragma strict
 
 public var bullet : GameObject;
+public var audio : AudioSource;
 
 function Update() {
     // Get the rigidbody component
@@ -35,6 +36,7 @@ function Update() {
         // Create a new bullet at “transform.position” 
         // Which is the current position of the ship
         // Quaternion.identity = add the bullet with no rotation
+        GetComponent.<AudioSource>().Play();
         Instantiate(bullet, transform.position, Quaternion.identity);
     }
 } 
